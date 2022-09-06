@@ -37,6 +37,17 @@
 34. u main.css fajl dodajemo smooth ponasanje
 35. u about.html fajlu dodajemo a element sa atributom preuzmi
 36. u about.html fajlu dodajemo ul elemente i li elemente
-37. 
-
-
+37. dodajemo img element sa atributima 
+38. dodajemo figure i figcaption elemente
+39. dodajemo code element
+40. dodajemo header element
+41. dodajemo main element
+42. dodajemo aria-label nav elementu
+43. section element zamijenimo sa article
+44. dodajemo aside element
+45. dodajemo details element
+46. dodajemo summary element
+47. dodajemo mark element
+48. dodajemo time element sa atributima
+49. dodajemo ekstenziju html5 outliner
+50. 

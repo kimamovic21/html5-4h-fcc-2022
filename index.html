@@ -13,74 +13,118 @@
 </head>
 
 <body>
-    <h1>My goals for the year</h1>
+    <header>
+        <h1>My goals for the year</h1>
+       
+        <nav aria-labelledby="primary-navigation">
+            <h2 id="primary-navigation">Primary navigation</h2>
+            <ul>
+                <li><a href="#html">Learning HTML</a></li>
+                <li><a href="#vacation">Planning a vacation</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <hr>
 
-    <nav>
-        <ul>
-            <li><a href="#html">Learning HTML</a></li>
-            <li><a href="#vacation">Planning a vacation</a></li>
-        </ul>
-    </nav>
-
-    <hr>
-
-    <section id="html">
-        <h2>I am ready to learn HTML </h2>
-        <p>This is my web page.</p>
+    <main>
+        <article id="html">
+            <h2>I am ready to learn HTML </h2>
+            <p>This is my first web page.</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html_logo_300x300.png" alt="HTML5 logo" title="I am learning HTML5." width="300px" height="300px">
+                <figure>
+                    <figcaption>An example of HTML5 code</figcaption>
+                    <p>
+                        <code><h1>&lt;h1&gt; Hello World! &lt;/h1&gt;</h1></code>
+                    </p>
+                </figure>
+            </section>
+            <section>
+                <h3>My daily schedule </h2>
+                <p>Let me tell you how:  </p>
+                    <!-- <br> &nbsp;... I learn more about web dev. -->
+                    <ol>
+                        <li>... I learn more about web dev.</li>
+                        <li>... I plan out my schedule.</li>
+                        <li>... I use resources from <abbr title="Mozilla developer network"> <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a> </abbr>.
+                        </li>
+                    </ol>
+                    <aside>
+                        <details>
+                            <summary>Guess the <mark>number of hours</mark>  I code per day</summary>
+                            <p>I start at <time datetime="08:00">8 am </time> and I write code for <time datetime="PT3H">3 hours </time> every morning.</p>
+                        </details>
+                    </aside>
+            </section>
+        </article>
     
-        <h3>My daily schedule </h2>
-        <p>Let me tell you how:  </p>
-            <!-- <br> &nbsp;... I learn more about web dev. -->
-            <ol>
-                <li>... I learn more about web dev.</li>
-                <li>... I plan out my schedule.</li>
-                <li>... I use resources from <abbr title="Mozilla developer network"> <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a> </abbr>.
-                </li>
-            </ol>
-    </section>
+        <hr>
+    
+        <br>
+    
+        <article id="vacation">
+            <h2>I am also planning a vacation</h2>
+            <p>I've been working hard and <em>really need a getaway.</em></p>
+            <p>I live in <abbr title="Kansas">KS</abbr> so I want to visit a beach.</p>
+        
+            <section>
+                <h3>Places I'd like to visit</h3>
+                <ul>
+                    <li>
+                        <p>I've heard good things about the Caribbean.</p>
+                        <figure>
+                            <img src="img/caribbean.jpg" alt="Caribbean beach" title="I want to visit a Caribbean beach." width="400px" height="250px" loading="lazy">
+                            <figcaption>
+                                Caribbean beach getaway
+                            </figcaption>
+                        </figure>
+                    </li> 
+                    <li>
+                        <p>I've heard good things about going here:</p>
+                        <address>
+                            Margaritaville Island Reserve Riviera Cancun <br>
+                            Bahia Petempich Puerto Morelos, Mexico <br>
+                            Colonia Morelos, Mexico 77580
+                        </address>
+                        <figure>
+                            <img src="img/vacation.jpg" alt="Cancun vacation" title="It's 5 o'clock somewhere." loading="lazy" width="350px" height="300px">
+                            <figcaption>
+                                A Caribbean vacation image
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+        
+            <!-- TODO: Add more places -->
+            <section>
+                <h3>Place  I want to avoid: </h2>
+                    <dl>
+                        <dt>North Pole</dt>
+                        <dd>I hear this is <strong>cold</strong>!</dd>
+                        <dt>South Pole</dt>
+                        <dd>This is also cold.</dd>
+                        <dt>Mountain Tops</dt>
+                        <dd>These are also cold.</dd>
+                    </dl>
+            </section>
+            <!-- <p>Anywhere cold. <strong>No way!</strong></p> -->
+        </article>
+    </main>
 
     <hr>
 
-    <section id="vacation">
-        <h2>I am also planning a vacation</h2>
-        <p>I've been working hard and <em>really need a getaway.</em></p>
-        <p>I live in <abbr title="Kansas">KS</abbr> so I want to visit a beach.</p>
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy;
+                <a href="about.html" target="_blank"> Kerim Imamovic</a>  
+            &gt;&gt;&gt;
+        </p>
+        <p><a href="/">Back to top</a></p>
+    </footer>
     
-        <h3>Place I'd like to visit</h3>
-        <ul>
-            <li><p>I've heard good things about the Caribbean.</p></li> 
-            <li>
-                <p>I've heard good things about going here:</p>
-                <address>
-                    Margaritaville Island Reserve Riviera Cancun <br>
-                    Bahia Petempich Puerto Morelos, Mexico <br>
-                    Colonia Morelos, Mexico 77580
-                </address>
-            </li>
-        </ul>
-    
-        <!-- TODO: Add more places -->
-        <h3>Place  I want to avoid: </h2>
-            <dl>
-                <dt>North Pole</dt>
-                <dd>I hear this is <strong>cold</strong>!</dd>
-                <dt>South Pole</dt>
-                <dd>This is also cold.</dd>
-                <dt>Mountain Tops</dt>
-                <dd>These are also cold.</dd>
-            </dl>
-        <!-- <p>Anywhere cold. <strong>No way!</strong></p> -->
-    </section>
-
-    <hr>
-
-    &lt;&lt;&lt; &copy;
-        <a href="about.html" target="_blank"> Kerim Imamovic</a>  
-    &gt;&gt;&gt;
-    <p><a href="/">Back to top</a></p>
-
 </body>
 
 </html>
