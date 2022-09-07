@@ -50,4 +50,27 @@
 47. dodajemo mark element
 48. dodajemo time element sa atributima
 49. dodajemo ekstenziju html5 outliner
-50. 
+50. dodajemo teble element
+51. unutar table elementa dodajemo th, td i tr elemente
+52. td elementima mozemo dodati rowspan i colspan atribute
+53. stiliziramo tabelu u main.css fajlu
+54. dodajemo caption element iznad table elementa
+55. dodajemo thead element
+56. dodajemo tbody element
+57. dodajemo tfoor element
+58. th elementima dodajemo atribut scope
+59. dodajemo article element sa id contact
+60. dodajemo form element sa atributima
+61. dodajemo label element sa atributima
+62. dodajemo input element sa atributima
+63. dodajemo vise label i input elemenata unutar p elementa
+64. dodajemo select i option elemente sa atributima
+65. dodajemo optgroup element sa atributom
+66. mozemo dodati datalist umjesto select elementa
+67. u form element dodajemo fieldset element
+68. u fieldset element dodajemo legend element
+69. dodajemo fieldset element i unutar njega input radio elemente
+70. dodajemo fieldset element i unutar njega checkbox input elemente
+71. dodaje fieldset element i unutar njega textarea element
+72. dodajemo button elemente sa atributima
+73. 
