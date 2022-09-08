@@ -73,4 +73,19 @@
 70. dodajemo fieldset element i unutar njega checkbox input elemente
 71. dodaje fieldset element i unutar njega textarea element
 72. dodajemo button elemente sa atributima
-73. 
+
+
+
+HTML project
+1. kreiramo index.html, contact.html i hours.html fajlove
+2. uredujemo meta elemente u index.html fajlu
+3. dodajemo header element
+4. unutar header elementa dodajemo h1 element
+5. dodajemo nav element
+6. unutar nav elementa dodajemo ul element
+7. unutar ul elementa dodajemo li elemente
+8. unutar li elementa dodajemo a element
+9. dodajemo figure element
+10. unutar figure elementa dodajemo img i figcaption elemente
+11. otvaramo i uredujemo hours.html i contact.html fajlove
+12. dodajemo elemente unutar main elemenata

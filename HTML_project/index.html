@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kerim Imamovic">
+    <meta name="description" content="The official webiste for The little taco shop">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The little taco shop</title>
+    <link rel="icon" href="/HTML_project/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/HTML_project/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to The little taco shop</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About <abbr title="The little taco shop">LTS</abbr> </a>
+                </li>
+                <li>
+                    <a href="#menu">Our menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Store hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+
+        <figure>
+            <img src="/HTML_project/img/tacos_and_drink_400x267.png" alt="Tacos and a drink" title="We love tacos!" width="400px" height="267px">
+            <figcaption>
+                Tacos and a drink
+            </figcaption>
+        </figure>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- Our content -->
+        <article id="about">
+            <h2>About <abbr title="The little Taco shop">LTS</abbr></h2>
+            <p><abbr title="The little taco shop">LTS</abbr> was founded in <time datetime="2022">2022</time>.
+                Our shop was build from a <strong>love of tacos</strong> 🌮🌮🌮. 
+                We hope our shop adds a unique and interesting place to a our little town.
+            </p>
+            <aside>
+                <h3>Taco trivia</h3>
+                <details>
+                    <summary>
+                        When did tacos first appeared in the USA ?
+                    </summary>
+                    <p>
+                        Jeffrey M. Pilcher, taco historian and professor of history at the University of Minnesota, 
+                        says the earliest mention of tacos in USA are in a newspaper from <time datetime="1905">1905</time>.
+                        (Source: <cite><a href="https://mattitos.com/blog/how-the-taco-became-an-american-staple/" target="_blank">Tacos in USA</a></cite>)
+                    </p>
+                </details>
+            </aside>
+        </article>
+
+        <hr>
+
+        <article id="menu">
+            <h2>Our menu</h2>
+
+            <table>
+                <caption>Our tacos</caption>
+                <thead>
+                    <tr>
+                        <th>Tacos</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            Crunchy
+                        </th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            Soft
+                        </th>
+                        <td>1</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$4.25</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Chips &amp; Salsa $2
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+
+        </article>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Copyright &copy; The little taco shop 2022</p>
+    </footer>
+
+</body>
+
+</html>
